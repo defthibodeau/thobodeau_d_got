@@ -1,5 +1,5 @@
 (() => {
-console.log("got videos");
+console.log("video fired");
 
 //add to string prototype to cap first letter
 String.prototype.capIt = function() {return this.replace(this.charAt(), this.charAt().toUpperCase());};
